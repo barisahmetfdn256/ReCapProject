@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DataAccsess/1.0.0": {
+        "dependencies": {
+          "Etities": "1.0.0"
+        },
+        "runtime": {
+          "DataAccsess.dll": {}
+        }
+      },
+      "Etities/1.0.0": {
+        "runtime": {
+          "Etities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataAccsess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Etities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

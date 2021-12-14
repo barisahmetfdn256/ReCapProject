@@ -1,0 +1,15 @@
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\bin\Debug\netcoreapp3.1\DataAccsess.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\bin\Debug\netcoreapp3.1\Etities.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\bin\Debug\netcoreapp3.1\DataAccsess.pdb
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\bin\Debug\netcoreapp3.1\Etities.pdb
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\Business\obj\Debug\netcoreapp3.1\Business.pdb

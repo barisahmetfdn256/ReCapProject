@@ -1,0 +1,10 @@
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\bin\Debug\netcoreapp3.1\Etities.deps.json
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\bin\Debug\netcoreapp3.1\Etities.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\bin\Debug\netcoreapp3.1\Etities.pdb
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etities.csproj.AssemblyReference.cache
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etities.AssemblyInfoInputs.cache
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etities.AssemblyInfo.cs
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etities.csproj.CoreCompileInputs.cache
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etities.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etities.pdb
