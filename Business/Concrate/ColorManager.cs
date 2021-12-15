@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Business.Concrate
 {
-    class ColorManager : IColorService
+    public class ColorManager : IColorService
     {
         IColorDal _colorDal;
         public ColorManager(IColorDal colorDal)
@@ -16,32 +16,32 @@ namespace Business.Concrate
         }
         public void Add(Color entity)
         {
-            throw new NotImplementedException();
+            _colorDal.Add(entity);
         }
 
         public void Delete(Color entity)
         {
-            throw new NotImplementedException();
+            _colorDal.Delete(entity);
         }
 
         public List<Color> GetAll()
         {
-            throw new NotImplementedException();
+            return _colorDal.GetALL();
         }
 
         public List<Color> GetByColor(string color)
         {
-            throw new NotImplementedException();
+            return _colorDal.GetALL(p => p.ColorName == color);
         }
 
         public List<Color> GetById(int id)
         {
-            throw new NotImplementedException();
+            return _colorDal.GetALL(p => p.ColorID == id);
         }
 
         public void Update(Color entity)
         {
-            throw new NotImplementedException();
+            _colorDal.Update(entity);
         }
     }
 }

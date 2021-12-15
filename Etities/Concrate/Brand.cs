@@ -7,7 +7,7 @@ namespace Etities.Concrate
 {
     public class Brand:IEntity
     {
-        public int Brandİd { get; set; }
+        public int BrandId { get; set; }
         public string BrandName { get; set; }
     }
 }

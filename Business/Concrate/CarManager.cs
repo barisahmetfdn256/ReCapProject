@@ -8,7 +8,7 @@ using System.Text;
 
 namespace ReCapProject.Business.Concrete
 {
-    class CarManager : ICarService
+    public class CarManager : ICarService
     {
         ICarDal _carDal;
         public CarManager(ICarDal carDal)
@@ -47,7 +47,7 @@ namespace ReCapProject.Business.Concrete
 
         public List<Car> GetById(int id)
         {
-            return _carDal.GetALL(p => p.CarId == id);
+            return _carDal.GetALL(p => p.CarID == id);
         }
 
         public void Update(Car entity)

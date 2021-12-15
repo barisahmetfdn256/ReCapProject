@@ -7,7 +7,7 @@ namespace Etities.Concrate
 {
     public class Car:IEntity
     {
-        public int CarId { get; set; }
+        public int CarID { get; set; }
         public string Brand { get; set; }
         public int ModelYear { get; set; }
         public string DailyPrice { get; set; }

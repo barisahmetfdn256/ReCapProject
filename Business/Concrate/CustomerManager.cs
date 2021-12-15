@@ -32,7 +32,7 @@ namespace Business.Concrate
 
         public List<Costomer> GetById(int id)
         {
-            return _costomerDal.GetALL(p=>p.CustomerId==id);
+            return _costomerDal.GetALL(p=>p.CustomerID==id);
         }
 
         public void Update(Costomer entity)
