@@ -11,12 +11,13 @@ namespace DataAccsess.Concrate.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"(localdb)\MSSQLLocalDB;Database=ReCap;Trusted_Connection;true");
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=ReCap;Trusted_Connection=true");
         }
 
-        public DbSet<Car> Cars { get; set; }
+        public DbSet<Car> Car { get; set; }
         public DbSet<Color> Color { get; set; }
-        public DbSet<Costomer> Costoemers { get; set; }
-        public DbSet<Brand> Brands { get; set; }
+        public DbSet<Brand> Brand { get; set; }
+        public DbSet<Costomer> Costomer { get; set; }
+        public DbSet<Motorcycle> Motorcycle { get; set; }
     }
 }

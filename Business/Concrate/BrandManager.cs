@@ -31,13 +31,12 @@ namespace Business.Concrate
 
         public List<Brand> GetByBrand(string brand)
         {
-            throw new NotImplementedException();
+            return _brandDal.GetALL(p=>p.BrandName==brand);
         }
-
 
         public List<Brand> GetById(int id)
         {
-            throw new NotImplementedException();
+            return _brandDal.GetALL(p => p.Id == id);
         }
 
         public void Update(Brand entity)

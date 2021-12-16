@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Business.Abstract
 {
-    public interface ICustomerService
+    public interface ICostomerService
     {
         List<Costomer> GetAll();
 
@@ -17,6 +17,5 @@ namespace Business.Abstract
 
         List<Costomer> GetById(int id);
 
-        
     }
 }

@@ -7,10 +7,11 @@ using System.Text;
 
 namespace Business.Concrate
 {
-    public class CustomerManager : ICustomerService
+    public class CostomerManager : ICostomerService
+
     {
         ICostomerDal _costomerDal;
-        public CustomerManager(ICostomerDal costomerDal)
+        public CostomerManager(ICostomerDal costomerDal)
         {
             _costomerDal = costomerDal;
         }
@@ -32,7 +33,7 @@ namespace Business.Concrate
 
         public List<Costomer> GetById(int id)
         {
-            return _costomerDal.GetALL(p=>p.CustomerID==id);
+            return _costomerDal.GetALL(p=>p.Id==id);
         }
 
         public void Update(Costomer entity)

@@ -3,10 +3,9 @@ using DataAccsess.Abstract;
 using Etities.Concrate;
 using System;
 using System.Collections.Generic;
-using System.Linq.Expressions;
 using System.Text;
 
-namespace ReCapProject.Business.Concrete
+namespace Business.Concrate
 {
     public class CarManager : ICarService
     {
@@ -15,9 +14,9 @@ namespace ReCapProject.Business.Concrete
         {
             _carDal = carDal;
         }
-        public void Add(Car entity)
+        public void Add(Car entitiy)
         {
-            _carDal.Add(entity);
+            _carDal.Add(entitiy);
         }
 
         public void Delete(Car entity)
@@ -25,34 +24,31 @@ namespace ReCapProject.Business.Concrete
             _carDal.Delete(entity);
         }
 
-        public Car Get(Expression<Func<Car, bool>> filter)
+        public List<Car> GetByBrand(string brand)
         {
-            throw new NotImplementedException();
-        }
-
-        public List<Car> GetALL(Expression<Func<Car, bool>> filter = null)
-        {
-            return _carDal.GetALL();
-        }
-
-        public List<Car> GetAll()
-        {
-            return _carDal.GetALL();
+            return _carDal.GetALL(p => p.Brand == brand);
         }
 
         public List<Car> GetByColor(string color)
         {
-            return _carDal.GetALL(p => p.Color == color);
+            return _carDal.GetALL(p=>p.Color==color);
         }
 
-        public List<Car> GetById(int id)
+        public List<Car> GetByPrice(int min, int max)
         {
-            return _carDal.GetALL(p => p.CarID == id);
+            return _carDal.GetALL(p=>p.DailyPrice >= min && p.DailyPrice < max);
+        }
+
+
+        public List<Car> GettAll()
+        {
+            return _carDal.GetALL();
         }
 
         public void Update(Car entity)
         {
-            _carDal.Update(entity);
+            _carDal.Add(entity);
         }
     }
 }
+    

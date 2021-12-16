@@ -9,19 +9,20 @@ using System.Text;
 
 namespace DataAccsess.Concrate.EntityFramework
 {
-    public class EfCarDal : ICarDal
+    public class EfMotorcycleDal : IMotorcycleDal
     {
-        public void Add(Car entity)
+        public void Add(Motorcycle entity)
         {
             using (ReCapContext context = new ReCapContext())
             {
                 var addedEntity = context.Entry(entity);
                 addedEntity.State = EntityState.Added;
                 context.SaveChanges();
+
             }
         }
 
-        public void Delete(Car entity)
+        public void Delete(Motorcycle entity)
         {
             using (ReCapContext context = new ReCapContext())
             {
@@ -31,31 +32,33 @@ namespace DataAccsess.Concrate.EntityFramework
             }
         }
 
-        public Car Get(Expression<Func<Car, bool>> filter)
+        public Motorcycle Get(Expression<Func<Motorcycle, bool>> filter)
         {
             using (ReCapContext context = new ReCapContext())
             {
-                return context.Set<Car>().SingleOrDefault(filter);
+                return context.Set<Motorcycle>().SingleOrDefault();
             }
         }
 
-        public List<Car> GetALL(Expression<Func<Car, bool>> filter = null)
+        public List<Motorcycle> GetALL(Expression<Func<Motorcycle, bool>> filter = null)
         {
             using (ReCapContext context = new ReCapContext())
             {
                 return filter == null
-                    ? context.Set<Car>().ToList()
-                    : context.Set<Car>().Where(filter).ToList();
+                    ? context.Set<Motorcycle>().ToList()
+                    : context.Set<Motorcycle>().Where(filter).ToList();
+
             }
         }
 
-        public void Update(Car entity)
+        public void Update(Motorcycle entity)
         {
             using (ReCapContext context = new ReCapContext())
             {
                 var updatedEntity = context.Entry(entity);
                 updatedEntity.State = EntityState.Modified;
                 context.SaveChanges();
+
             }
         }
     }

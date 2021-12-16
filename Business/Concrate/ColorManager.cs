@@ -36,7 +36,7 @@ namespace Business.Concrate
 
         public List<Color> GetById(int id)
         {
-            return _colorDal.GetALL(p => p.ColorID == id);
+            return _colorDal.GetALL(p => p.Id == id);
         }
 
         public void Update(Color entity)
