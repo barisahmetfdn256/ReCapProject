@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "I+JHkzB5ljCX7NutLGo58YEDNkKI3/QMsQY5oZRrEUoh9S8vIMyunYyMD1n8O8G12LFscfbQQ+E4KxHtBHu5ww==",
+  "dgSpecHash": "0JtAAAYWZ0ITm8MibinSH4hdZBwsww+b1tXlA9SZRNHMMEdzZlIq8lXYaYX9TizH5OSyimOqx5wGhTFwMb3p5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Etities\\Etities.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ENIGMA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\ENIGMA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\ENIGMA\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

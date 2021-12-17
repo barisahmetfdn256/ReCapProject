@@ -10,3 +10,4 @@ C:\Users\ENIGMA\source\repos\ReCapProject\DataAccsess\bin\Debug\netcoreapp3.1\Et
 C:\Users\ENIGMA\source\repos\ReCapProject\DataAccsess\bin\Debug\netcoreapp3.1\Etities.pdb
 C:\Users\ENIGMA\source\repos\ReCapProject\DataAccsess\obj\Debug\netcoreapp3.1\DataAccsess.dll
 C:\Users\ENIGMA\source\repos\ReCapProject\DataAccsess\obj\Debug\netcoreapp3.1\DataAccsess.pdb
+C:\Users\ENIGMA\source\repos\ReCapProject\DataAccsess\obj\Debug\netcoreapp3.1\DataAccsess.csproj.CopyComplete

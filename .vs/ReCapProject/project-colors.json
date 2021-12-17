@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c779aaef-df10-4173-89f0-d875e6b9e60e": {
+      "ProjectGuid": "c779aaef-df10-4173-89f0-d875e6b9e60e",
+      "DisplayName": "ConsoleUI",
+      "ColorIndex": 0
+    },
+    "bf539e51-1205-4812-a7ef-111a96f074f3": {
+      "ProjectGuid": "bf539e51-1205-4812-a7ef-111a96f074f3",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "e306880a-0244-4d9d-b0ac-49dfac6d5ccb": {
+      "ProjectGuid": "e306880a-0244-4d9d-b0ac-49dfac6d5ccb",
+      "DisplayName": "ConsoleUI",
+      "ColorIndex": 2
+    },
+    "d1ab8e1d-521d-4108-9f7b-852e7a94d939": {
+      "ProjectGuid": "d1ab8e1d-521d-4108-9f7b-852e7a94d939",
+      "DisplayName": "ConsoleUI",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
