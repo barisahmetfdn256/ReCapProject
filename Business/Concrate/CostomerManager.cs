@@ -27,13 +27,13 @@ namespace Business.Concrate
 
         public List<Costomer> GetAll()
         {
-            return _costomerDal.GetALL();
+            return _costomerDal.GetAll();
         }
 
 
         public List<Costomer> GetById(int id)
         {
-            return _costomerDal.GetALL(p=>p.Id==id);
+            return _costomerDal.GetAll(p=>p.Id==id);
         }
 
         public void Update(Costomer entity)

@@ -26,22 +26,22 @@ namespace Business.Concrate
 
         public List<Motorcycle> GetByBrand(string brand)
         {
-            return _motorcycleDal.GetALL(p=>p.Brand==brand);
+            return _motorcycleDal.GetAll(p=>p.Brand==brand);
         }
 
         public List<Motorcycle> GetByColor(string color)
         {
-            return _motorcycleDal.GetALL(p=>p.Color==color);
+            return _motorcycleDal.GetAll(p=>p.Color==color);
         }
 
         public List<Motorcycle> GetByPrice(int min, int max)
         {
-            return _motorcycleDal.GetALL(p=>p.DailyPrice >= min && p.DailyPrice<=max);
+            return _motorcycleDal.GetAll(p=>p.DailyPrice >= min && p.DailyPrice<=max);
         }
 
         public List<Motorcycle> GettAll()
         {
-            return _motorcycleDal.GetALL();
+            return _motorcycleDal.GetAll();
         }
 
 

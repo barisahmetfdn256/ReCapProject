@@ -59,3 +59,5 @@ C:\Users\ENIGMA\source\repos\ReCapProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.d
 C:\Users\ENIGMA\source\repos\ReCapProject\ConsoleUI\obj\Debug\net5.0\ref\ConsoleUI.dll
 C:\Users\ENIGMA\source\repos\ReCapProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.pdb
 C:\Users\ENIGMA\source\repos\ReCapProject\ConsoleUI\obj\Debug\net5.0\ConsoleUI.genruntimeconfig.cache
+C:\Users\ENIGMA\source\repos\ReCapProject\ConsoleUI\bin\Debug\net5.0\Core.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\ConsoleUI\bin\Debug\net5.0\Core.pdb

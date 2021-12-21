@@ -26,17 +26,17 @@ namespace Business.Concrate
 
         public List<Color> GetAll()
         {
-            return _colorDal.GetALL();
+            return _colorDal.GetAll();
         }
 
         public List<Color> GetByColor(string color)
         {
-            return _colorDal.GetALL(p => p.ColorName == color);
+            return _colorDal.GetAll(p => p.ColorName == color);
         }
 
         public List<Color> GetById(int id)
         {
-            return _colorDal.GetALL(p => p.Id == id);
+            return _colorDal.GetAll(p => p.Id == id);
         }
 
         public void Update(Color entity)

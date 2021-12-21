@@ -8,3 +8,6 @@ C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etitie
 C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etities.csproj.CoreCompileInputs.cache
 C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etities.dll
 C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etities.pdb
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\ENIGMA\source\repos\ReCapProject\Etities\obj\Debug\netcoreapp3.1\Etities.csproj.CopyComplete

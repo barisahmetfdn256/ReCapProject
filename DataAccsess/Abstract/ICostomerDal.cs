@@ -1,4 +1,5 @@
-﻿using Etities.Concrate;
+﻿using Core.DataAccess;
+using Etities.Concrate;
 using System;
 using System.Collections.Generic;
 using System.Text;

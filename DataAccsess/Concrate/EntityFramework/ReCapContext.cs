@@ -14,10 +14,10 @@ namespace DataAccsess.Concrate.EntityFramework
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=ReCap;Trusted_Connection=true");
         }
 
-        public DbSet<Car> Car { get; set; }
-        public DbSet<Color> Color { get; set; }
-        public DbSet<Brand> Brand { get; set; }
-        public DbSet<Costomer> Costomer { get; set; }
-        public DbSet<Motorcycle> Motorcycle { get; set; }
+        public DbSet<Car> Cars { get; set; }
+        public DbSet<Color> Colors { get; set; }
+        public DbSet<Brand> Brands { get; set; }
+        public DbSet<Costomer> Customers { get; set; }
+        public DbSet<Motorcycle> Motorcycles { get; set; }
     }
 }

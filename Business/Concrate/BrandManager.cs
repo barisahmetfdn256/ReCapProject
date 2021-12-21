@@ -26,17 +26,17 @@ namespace Business.Concrate
 
         public List<Brand> GetAll()
         {
-            return _brandDal.GetALL();
+            return _brandDal.GetAll();
         }
 
         public List<Brand> GetByBrand(string brand)
         {
-            return _brandDal.GetALL(p=>p.BrandName==brand);
+            return _brandDal.GetAll(p=>p.BrandName==brand);
         }
 
         public List<Brand> GetById(int id)
         {
-            return _brandDal.GetALL(p => p.Id == id);
+            return _brandDal.GetAll(p => p.Id == id);
         }
 
         public void Update(Brand entity)

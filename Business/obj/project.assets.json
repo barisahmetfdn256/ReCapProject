@@ -1468,10 +1468,24 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "DataAccsess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Core": "1.0.0",
           "Etities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
@@ -1485,6 +1499,9 @@
       "Etities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Etities.dll": {}
         },
@@ -5668,6 +5685,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../../MyFinalProject/Core/Core.csproj",
+      "msbuildProject": "../../MyFinalProject/Core/Core.csproj"
+    },
     "DataAccsess/1.0.0": {
       "type": "project",
       "path": "../DataAccsess/DataAccsess.csproj",
@@ -5686,8 +5708,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ENIGMA\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ENIGMA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5698,12 +5719,8 @@
       "packagesPath": "C:\\Users\\ENIGMA\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Business\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\ENIGMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
