@@ -45,7 +45,22 @@
       "ProjectGuid": "0c1833e3-6f97-488e-ac3c-c8d160da9b28",
       "DisplayName": "Core",
       "ColorIndex": 7
+    },
+    "eb799bbb-4d91-481e-af22-335694ca7f4d": {
+      "ProjectGuid": "eb799bbb-4d91-481e-af22-335694ca7f4d",
+      "DisplayName": "WebAPI",
+      "ColorIndex": 8
+    },
+    "98343012-bedb-483f-a699-c298a80c57b3": {
+      "ProjectGuid": "98343012-bedb-483f-a699-c298a80c57b3",
+      "DisplayName": "WebAPI",
+      "ColorIndex": 9
+    },
+    "837ed28d-fb1f-41f5-921f-d41930608e98": {
+      "ProjectGuid": "837ed28d-fb1f-41f5-921f-d41930608e98",
+      "DisplayName": "WebAPI",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 11
 }

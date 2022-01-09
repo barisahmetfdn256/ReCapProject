@@ -16,10 +16,12 @@ namespace Business.Constants
         public static string BrandAdded = "Marka Eklendi.";
         public static string BrandUpdated = "Marka Güncellendi.";
         public static string BrandDeleted = "Marka Silimdi.";
+        public static string InvalidBrand = "Marka Kısa.";
 
         public static string ColorAdded = "Renk Eklendi.";
         public static string ColorUpdated = "Renk Güncellendi.";
         public static string ColorDeleted = "Renk Silimdi.";
+        public static string InvalidColor = "Renk Kısa.";
 
         public static string UserAdded = "Kullanıcı Eklendi.";
         public static string UserUpdated = "Kullanıcı Güncellendi.";
@@ -35,5 +37,14 @@ namespace Business.Constants
         public static string CarInvalid = "Açıklama Geçersiz";
         public static string  MainteanceTime = "Sunucular Bakımda";
         public static string CarsListed = "Araçlar Listelendi";
+
+        public static string Delivery = "Araç Teslim İçin Yola Çıktı";
+        public static string InvalidDalivaryTime = "Araç Mesai Saatleri İçinde Teslim Edilcek";
+        public static string Rental = "Araç Kiralandı";
+        public static string Return =   "Araç Geri Alındı";
+        public static string InvalidReturnTime = " Mesai Dışı . 24 Saat Dolmadan Aracınzı Teslim Etmelisinz";
+        public static string BigRental = "Kiraladığınız Süre 24 Saati Geçti Ücretlendirme 2 GÜNDEN Hesaplanacaktır";
+        public static string AgeInvalid = "Kiralamak İçin  En Az 18 Yaşında Olmalısnız";
+        public static string Insufficient = "Hesap Bakiyesi Yetersiz";
     }
 }

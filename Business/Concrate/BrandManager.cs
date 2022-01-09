@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccsess.Abstract;
 using Etities.Concrate;
 using System;
@@ -10,38 +12,54 @@ namespace Business.Concrate
     public class BrandManager : IBrandService
     {
         IBrandDal _brandDal;
+
         public BrandManager(IBrandDal brandDal)
         {
             _brandDal = brandDal;
         }
-        public void Add(Brand entity)
+
+        public IResult Add(Brand brand)
         {
-            _brandDal.Add(entity);
+            if (brand.BrandName.Length < 3)
+            {
+                return new ErrorResult(Messages.InvalidBrand);
+            }
+            return new Result(true , Messages.BrandAdded);
         }
 
-        public void Delete(Brand entity)
+        public IResult Delete(Brand brand)
         {
-            _brandDal.Delete(entity);
+            if (brand.BrandName.Length < 3)
+            {
+                return new ErrorResult(Messages.InvalidBrand);
+            }
+            return new Result(true, Messages.BrandAdded);
         }
 
-        public List<Brand> GetAll()
+
+        public IDataResult<List<Brand>> GetAll()
         {
-            return _brandDal.GetAll();
+            return new SuccessDataResult<List<Brand>>();
         }
 
-        public List<Brand> GetByBrand(string brand)
+        public IDataResult<List<Brand>> GetByBrand(string brand)
         {
-            return _brandDal.GetAll(p=>p.BrandName==brand);
+            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll(b=>b.BrandName == brand));
         }
 
-        public List<Brand> GetById(int id)
+        public IDataResult<Brand> GetByİd(int id)
         {
-            return _brandDal.GetAll(p => p.Id == id);
+            return new SuccessDataResult<Brand>(_brandDal.Get());
         }
 
-        public void Update(Brand entity)
+        public IResult Update(Brand brand)
         {
-            _brandDal.Update(entity);
+            if (brand.BrandName.Length < 3)
+            {
+                return new ErrorResult(Messages.InvalidBrand);
+            }
+            return new Result(true, Messages.BrandAdded);
         }
     }
 }
+

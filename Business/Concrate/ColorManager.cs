@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccsess.Abstract;
 using Entities.Concrete;
 using System;
@@ -10,38 +12,52 @@ namespace Business.Concrate
     public class ColorManager : IColorService
     {
         IColorDal _colorDal;
+
         public ColorManager(IColorDal colorDal)
         {
             _colorDal = colorDal;
         }
-        public void Add(Color entity)
+
+        public IResult Add(Color color)
         {
-            _colorDal.Add(entity);
+            if (color.ColorName.Length <4)
+            {
+                return new  ErrorResult(Messages.InvalidColor);
+            }
+            return new Result(true , Messages.ColorAdded);
         }
 
-        public void Delete(Color entity)
+        public IResult Delete(Color color)
         {
-            _colorDal.Delete(entity);
+            if (color.ColorName.Length < 4)
+            {
+                return new ErrorResult(Messages.InvalidColor);
+            }
+            return new Result(true, Messages.ColorDeleted);
         }
 
-        public List<Color> GetAll()
+        public IDataResult<List<Color>> GetAll()
         {
-            return _colorDal.GetAll();
+            return new SuccessDataResult<List<Color>>();    
         }
 
-        public List<Color> GetByColor(string color)
+        public IDataResult<List<Color>> GetByColor(string color)
         {
-            return _colorDal.GetAll(p => p.ColorName == color);
+            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(co=>co.ColorName == color));
         }
 
-        public List<Color> GetById(int id)
+        public IDataResult<Color> GetById(int İd)
         {
-            return _colorDal.GetAll(p => p.Id == id);
+            return new SuccessDataResult<Color>(_colorDal.Get());
         }
 
-        public void Update(Color entity)
+        public IResult Update(Color color)
         {
-            _colorDal.Update(entity);
+           if (color.ColorName.Length < 4)
+            {
+                return new ErrorResult(Messages.InvalidColor);
+            }
+            return new Result(true, Messages.ColorAdded);
         }
     }
 }

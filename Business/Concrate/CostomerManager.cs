@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Core.Utilities.Results;
 using DataAccsess.Abstract;
 using Etities.Concrate;
 using System;
@@ -39,6 +40,31 @@ namespace Business.Concrate
         public void Update(Costomer entity)
         {
             _costomerDal.Update(entity);
+        }
+
+        IResult ICostomerService.Add(Costomer entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        IResult ICostomerService.Delete(Costomer entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        IDataResult<List<Costomer>> ICostomerService.GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        IDataResult<Costomer> ICostomerService.GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        IResult ICostomerService.Update(Costomer entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }

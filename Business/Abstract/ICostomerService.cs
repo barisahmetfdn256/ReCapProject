@@ -1,4 +1,5 @@
-﻿using Etities.Concrate;
+﻿using Core.Utilities.Results;
+using Etities.Concrate;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,15 +8,16 @@ namespace Business.Abstract
 {
     public interface ICostomerService
     {
-        List<Costomer> GetAll();
+        IDataResult<List<Costomer>> GetAll();
 
-        void Add(Costomer entity);
+        IResult Add(Costomer entity);
 
-        void Update(Costomer entity);
+        IResult Update(Costomer entity);
 
-        void Delete(Costomer entity);
+        IResult Delete(Costomer entity);
 
-        List<Costomer> GetById(int id);
+        IDataResult<Costomer> GetById(int id);
+
 
     }
 }
