@@ -53,9 +53,9 @@ namespace Business.Concrate
             return new SuccessDataResult<List<Car>>(_cardal.GetAll(c => c.ColorId == colorId));
         }
 
-        public IDataResult<Car> GetById()
+        public IDataResult<Car> GetById(int carid)
         {
-           return new SuccessDataResult<Car>(_cardal.Get());
+           return new SuccessDataResult<Car>(_cardal.Get(c => c.Id == carid));
         }
 
         public IDataResult<List<Car>> GetByPrice(int min, int max)
