@@ -51,7 +51,6 @@ C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Business.pdb
 C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Core.pdb
 C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\DataAccsess.pdb
 C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Etities.pdb
-C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\obj\Debug\net5.0\scopedcss\bundle\WebAPI.styles.css
 C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\obj\Debug\net5.0\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
 C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\obj\Debug\net5.0\WebAPI.RazorTargetAssemblyInfo.cache
@@ -65,3 +64,13 @@ C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extens
 C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\WebAPI\obj\Debug\net5.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs

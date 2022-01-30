@@ -1,7 +1,9 @@
-﻿using Etities.Concrate;
+﻿using Core.Entities.Concrate;
+using Etities.Concrate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -46,5 +48,21 @@ namespace Business.Constants
         public static string BigRental = "Kiraladığınız Süre 24 Saati Geçti Ücretlendirme 2 GÜNDEN Hesaplanacaktır";
         public static string AgeInvalid = "Kiralamak İçin  En Az 18 Yaşında Olmalısnız";
         public static string Insufficient = "Hesap Bakiyesi Yetersiz";
+
+        public static string ImgAdded = "Resim Eklendi";
+
+        public static string ImgDeleted = "Resim Silindi";
+        public static string ImgUpdated = "Resim Güncellendi";
+        public static string Maximg = "Maxismum 5 tane resim eklenebiir";
+
+        public static string UserRegistered = "kayır başarılı";
+        public static string UserNotFound = "kullanıcı bulunamadı";
+        public static string PasswordError = "şifre hatası";
+        public static string SuccessfulLogin = "Giriş Başarılı";
+        public static string UserAlreadyExists = "kullanıcı zaten kayıtlı";
+        public static string AccessTokenCreated = "token oluşturuldu";
+        public static string AuthorizationDenied = "Yetkiniz yok.";
+
+        public static List<Carimg> İmgNull { get; internal set; }
     }
 }

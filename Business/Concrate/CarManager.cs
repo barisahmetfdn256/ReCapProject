@@ -1,6 +1,9 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentRules;
+using Core.Aspects.Autofac.Chasing;
+using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
@@ -22,15 +25,24 @@ namespace Business.Concrate
             _cardal = cardal;
         }
 
-        [ValidationAspect(typeof(CarValidator))]
+        [SecuredOperation("admin")]
+        //[ValidationAspect(typeof(CarValidator))]
+        //[CacheRemoveAspect("ICarService.Get")]
+        //[PerformanceAspect(5)]
         public IResult Add(Car car)
         {
             ValidationTool.Validate(new CarValidator(), car);
             _cardal.Add(car);
             return new Result(true, Messages.CarAdded);
-            
         }
 
+        public IResult Delete(Car car)
+        {
+            _cardal.Delete(car);
+            return new Result(true , Messages.CarDeleted);
+        }
+
+        [CacheAspect(duration: 25)]
         public IDataResult<List<Car>> GetByBrandId(int brandId)
         {
             return new SuccessDataResult<List<Car>>(_cardal.GetAll(c=>c.BrandId == brandId));
@@ -58,7 +70,7 @@ namespace Business.Concrate
 
         public IDataResult<List<Car>> GettAll()
         {
-            if (DateTime.Now.Hour == 10)
+            if (DateTime.Now.Hour == 1)
             {
                 return new ErrorDataResult<List<Car>>(Messages.MainteanceTime);
             }

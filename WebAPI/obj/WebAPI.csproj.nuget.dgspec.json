@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Users\\ENIGMA\\source\\repos\\MyFinalProject\\Core\\Core.csproj",
         "projectName": "Core",
         "projectPath": "C:\\Users\\ENIGMA\\source\\repos\\MyFinalProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\ENIGMA\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\BARIŞ\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ENIGMA\\source\\repos\\MyFinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ENIGMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BARIŞ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,9 +56,29 @@
               "target": "Package",
               "version": "[10.3.6, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.11, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.15.1, )"
             }
           },
           "imports": [
@@ -100,11 +120,11 @@
         "projectUniqueName": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Business\\Business.csproj",
         "projectName": "Business",
         "projectPath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\ENIGMA\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\BARIŞ\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ENIGMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BARIŞ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -141,6 +161,10 @@
               "target": "Package",
               "version": "[6.3.0, )"
             },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -148,6 +172,14 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[10.3.6, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -189,11 +221,11 @@
         "projectUniqueName": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\DataAccsess\\DataAccsess.csproj",
         "projectName": "DataAccsess",
         "projectPath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\DataAccsess\\DataAccsess.csproj",
-        "packagesPath": "C:\\Users\\ENIGMA\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\BARIŞ\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\DataAccsess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ENIGMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BARIŞ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -270,11 +302,11 @@
         "projectUniqueName": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Etities\\Etities.csproj",
         "projectName": "Etities",
         "projectPath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Etities\\Etities.csproj",
-        "packagesPath": "C:\\Users\\ENIGMA\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\BARIŞ\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Etities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ENIGMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BARIŞ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -342,11 +374,11 @@
         "projectUniqueName": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
         "projectPath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\ENIGMA\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\BARIŞ\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ENIGMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BARIŞ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -379,6 +411,10 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

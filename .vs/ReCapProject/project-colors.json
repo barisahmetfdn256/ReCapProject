@@ -60,7 +60,12 @@
       "ProjectGuid": "837ed28d-fb1f-41f5-921f-d41930608e98",
       "DisplayName": "WebAPI",
       "ColorIndex": 10
+    },
+    "cf18b718-e9b0-43b7-96d6-5989c5edc85d": {
+      "ProjectGuid": "cf18b718-e9b0-43b7-96d6-5989c5edc85d",
+      "DisplayName": "WEB API",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 12
 }

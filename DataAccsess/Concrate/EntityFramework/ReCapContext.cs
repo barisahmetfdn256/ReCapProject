@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using Core.Entities.Concrate;
+using Entities.Concrete;
 using Etities.Concrate;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,7 +12,7 @@ namespace DataAccsess.Concrate.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=ReCap;Trusted_Connection=true");
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=ReCapContext;Trusted_Connection=true");
         }
 
         public DbSet<Car> Cars { get; set; }
@@ -19,5 +20,10 @@ namespace DataAccsess.Concrate.EntityFramework
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Costomer> Customers { get; set; }
         public DbSet<Motorcycle> Motorcycles { get; set; }
+        public DbSet<Carimg> CarImages { get; set; }
+        public DbSet<OperationClaim> OperationClaims { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
     }
 }
+
