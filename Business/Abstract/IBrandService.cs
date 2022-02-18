@@ -16,6 +16,6 @@ namespace Business.Abstract
         IResult Delete(Brand entity);
 
         public IDataResult<Brand> GetByİd(int id);
-        IDataResult<List<Brand>> GetByBrand(string brand);
+        IDataResult<List<Brand>> GetByBrand(int brandId);
     }
 }

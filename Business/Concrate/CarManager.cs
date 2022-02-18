@@ -25,7 +25,7 @@ namespace Business.Concrate
             _cardal = cardal;
         }
 
-        [SecuredOperation("admin")]
+        //[SecuredOperation("admin")]
         //[ValidationAspect(typeof(CarValidator))]
         //[CacheRemoveAspect("ICarService.Get")]
         //[PerformanceAspect(5)]
@@ -43,14 +43,14 @@ namespace Business.Concrate
         }
 
         [CacheAspect(duration: 25)]
-        public IDataResult<List<Car>> GetByBrandId(int brandId)
+        public IDataResult<List<CarDetailDto>> GetByBrandId(int brandId)
         {
-            return new SuccessDataResult<List<Car>>(_cardal.GetAll(c=>c.BrandId == brandId));
+            return new SuccessDataResult<List<CarDetailDto>>(_cardal.GetCarDetail(c=>c.BrandId == brandId));
         }
 
-        public IDataResult<List<Car>> GetByColorId(int colorId)
+        public IDataResult<List<CarDetailDto>> GetByColorId(int colorId)
         {
-            return new SuccessDataResult<List<Car>>(_cardal.GetAll(c => c.ColorId == colorId));
+            return new SuccessDataResult<List<CarDetailDto>>(_cardal.GetCarDetail(c => c.ColorId == colorId));
         }
 
         public IDataResult<Car> GetById(int carid)

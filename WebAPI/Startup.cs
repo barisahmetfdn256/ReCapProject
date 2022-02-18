@@ -19,6 +19,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,9 +44,31 @@ namespace WebAPI
 
 
             services.AddControllers();
-            services.AddSingleton<ICarService, CarManager>();
-            services.AddSingleton<ICarDal, EfCarDal>();
+            //services.AddSingleton<ICarService, CarManager>();
+            //services.AddSingleton<ICarDal, EfCarDal>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidIssuer = tokenOptions.Issuer,
+                        ValidAudience = tokenOptions.Audience,
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
+                    };
+                });
+
+            services.AddDepencyResolvers(new ICoreModule[] {
+               new CoreModule()
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
@@ -79,28 +103,18 @@ namespace WebAPI
                     }
                 });
 
-                services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-                var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
+               
+      
 
-                services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                    .AddJwtBearer(options =>
-                    {
-                        options.TokenValidationParameters = new TokenValidationParameters
-                        {
-                            ValidateIssuer = true,
-                            ValidateAudience = true,
-                            ValidateLifetime = true,
-                            ValidIssuer = tokenOptions.Issuer,
-                            ValidAudience = tokenOptions.Audience,
-                            ValidateIssuerSigningKey = true,
-                            IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
-                        };
-                    });
-
-                services.AddDepencyResolvers(new ICoreModule[] {
-               new CoreModule()
             });
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.SetIsOriginAllowed((host) => true)
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
             });
         }
 
@@ -115,7 +129,7 @@ namespace WebAPI
             }
 
 
-            //app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
+           app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
 
             app.UseHttpsRedirection();
 
@@ -129,6 +143,7 @@ namespace WebAPI
             {
                 endpoints.MapControllers();
             });
+
         }
     }
 }

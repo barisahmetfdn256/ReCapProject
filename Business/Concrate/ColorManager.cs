@@ -24,26 +24,24 @@ namespace Business.Concrate
             {
                 return new  ErrorResult(Messages.InvalidColor);
             }
+            _colorDal.Add(color);
             return new Result(true , Messages.ColorAdded);
         }
 
         public IResult Delete(Color color)
         {
-            if (color.ColorName.Length < 4)
-            {
-                return new ErrorResult(Messages.InvalidColor);
-            }
+            _colorDal.Delete(color);
             return new Result(true, Messages.ColorDeleted);
         }
 
         public IDataResult<List<Color>> GetAll()
         {
-            return new SuccessDataResult<List<Color>>();    
+            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(),Messages.ColorListed);    
         }
 
-        public IDataResult<List<Color>> GetByColor(string color)
+        public IDataResult<List<Color>> GetByColor(int colorId)
         {
-            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(co=>co.ColorName == color));
+            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(co=>co.Id == colorId));
         }
 
         public IDataResult<Color> GetById(int İd)

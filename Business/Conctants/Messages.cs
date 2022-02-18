@@ -64,5 +64,8 @@ namespace Business.Constants
         public static string AuthorizationDenied = "Yetkiniz yok.";
 
         public static List<Carimg> İmgNull { get; internal set; }
+        public static string ColorListed = "Resimler Listelendi";
+
+        public static string BrandListed = "Markalar Lİstelendi";
     }
 }

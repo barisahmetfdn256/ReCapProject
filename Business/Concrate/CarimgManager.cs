@@ -38,7 +38,7 @@ namespace Business.Concrate
             }
         
            
-            carimg.ImgPath = _fileHelper.Upload(formFile,FileConctants.PathConctants + carimg.ImgPath);
+            carimg.ImagePath = _fileHelper.Upload(formFile,FileConctants.PathConctants + carimg.ImagePath);
             carimg.Date=DateTime.Now;
             _carimgDal.Add(carimg);
             return new SuccessResult(Messages.ImgAdded);
@@ -52,7 +52,7 @@ namespace Business.Concrate
                 return new ErrorResult(Messages.Maximg);
             }
 
-            _fileHelper.Delete(carimg.ImgPath);
+            _fileHelper.Delete(carimg.ImagePath);
             carimg.Date = DateTime.Now;
             _carimgDal.Delete(carimg);
             return new SuccessResult(Messages.ImgDeleted);  
@@ -88,7 +88,7 @@ namespace Business.Concrate
         {
             var imgentity = GetByImgId(carimg.Id).Data;
 
-            imgentity.ImgPath = _fileHelper.Update(formFile, FileConctants.PathConctants + carimg.ImgPath, FileConctants.PathConctants);
+            imgentity.ImagePath = _fileHelper.Update(formFile, FileConctants.PathConctants + carimg.ImagePath, FileConctants.PathConctants);
             imgentity.Date = DateTime.Now; 
             _carimgDal.Update(imgentity);
             return new SuccessResult(Messages.ImgUpdated);

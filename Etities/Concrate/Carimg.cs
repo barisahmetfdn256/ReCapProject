@@ -9,7 +9,7 @@ namespace Etities.Concrate
     {
         public int Id { get; set; }
         public int CarId { get; set; }
-        public string ImgPath { get; set; }
+        public string ImagePath { get; set; }
         public DateTime Date { get; set; }
     }
 }

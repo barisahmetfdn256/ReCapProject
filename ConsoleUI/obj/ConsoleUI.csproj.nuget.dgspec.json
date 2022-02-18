@@ -60,10 +60,6 @@
               "target": "Package",
               "version": "[2.2.2, )"
             },
-            "Microsoft.AspNetCore.Http.Abstractions": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -76,9 +72,13 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.15.1, )"
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
@@ -179,7 +179,7 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[5.0.1, )"
             }
           },
           "imports": [

@@ -24,27 +24,26 @@ namespace Business.Concrate
             {
                 return new ErrorResult(Messages.InvalidBrand);
             }
+            _brandDal.Add(brand);
             return new Result(true , Messages.BrandAdded);
+            
         }
 
         public IResult Delete(Brand brand)
         {
-            if (brand.BrandName.Length < 3)
-            {
-                return new ErrorResult(Messages.InvalidBrand);
-            }
-            return new Result(true, Messages.BrandAdded);
+            _brandDal.Delete(brand);
+            return new SuccessResult(Messages.BrandDeleted);
         }
 
 
         public IDataResult<List<Brand>> GetAll()
         {
-            return new SuccessDataResult<List<Brand>>();
+            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll(),Messages.BrandListed);
         }
 
-        public IDataResult<List<Brand>> GetByBrand(string brand)
+        public IDataResult<List<Brand>> GetByBrand(int brandId)
         {
-            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll(b=>b.BrandName == brand));
+            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll(b=>b.Id == brandId));
         }
 
         public IDataResult<Brand> GetByİd(int id)

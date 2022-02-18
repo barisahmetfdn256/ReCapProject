@@ -26,8 +26,6 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<EfCarDal>().As<ICarDal>().SingleInstance();
 
 
-            builder.RegisterType<CarimgManager>().As<ICarimgService>().SingleInstance();
-            builder.RegisterType<EfCarimgDal>().As<ICarimgDal>().SingleInstance();
 
             builder.RegisterType<ColorManager>().As<IColorService>().SingleInstance();
             builder.RegisterType<EfCarDal>().As<ICarDal>().SingleInstance();
@@ -38,7 +36,7 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<RentalManager>().As<IRentalService>().SingleInstance();
             builder.RegisterType<EfRental>().As<IRentalDal>().SingleInstance();
 
-            
+           
 
             builder.RegisterType<UserManager>().As<IUserService>().SingleInstance();
             builder.RegisterType<EfUserDal>().As<IUserDal>().SingleInstance();
@@ -48,6 +46,11 @@ namespace Business.DependencyResolvers.Autofac
 
             builder.RegisterType<ColorManager>().As<IColorService>().SingleInstance();
             builder.RegisterType<EfColorDal>().As<IColorDal>().SingleInstance();
+
+            builder.RegisterType<FileHelperManager>().As<IFileHelper>().SingleInstance();
+            
+
+
 
 
 

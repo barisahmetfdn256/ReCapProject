@@ -10,7 +10,7 @@ namespace Business.ValidationRules.FluentRules
     {
         public CarimgValiator()
         {
-            RuleFor(img => img.ImgPath).NotEmpty();
+            //RuleFor(img => img.ImagePath).NotEmpty();
         }
     }
 }

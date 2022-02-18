@@ -1,36 +1,18 @@
-﻿++Solution 'ReCapProject' ‎(6 of 6 projects)
+﻿++Solution 'ReCapProject' ‎(5 of 5 projects)
 i:{00000000-0000-0000-0000-000000000000}:ReCapProject.sln
 ++DataAccsess
 i:{00000000-0000-0000-0000-000000000000}:DataAccsess
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\dataaccsess\dataaccsess.csproj
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:c:\users\enigma\source\repos\recapproject\dataaccsess\dataaccsess.csproj
 ++Dependencies
-i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:>382
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>383
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:>1006
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1213
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:>384
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1005
+i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:>803
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>802
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:>800
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1016
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>801
 ++Abstract
 i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\abstract\
 i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\abstract\
-++IBrandDal.cs
-i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\ibranddal.cs
-++ICarDal.cs
-i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\icardal.cs
-++ICarimgDal.cs
-i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\icarimgdal.cs
-++IColorDal.cs
-i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\icolordal.cs
-++ICostomerDal.cs
-i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\icostomerdal.cs
-++IMotorcycleDal.cs
-i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\imotorcycledal.cs
-++IRentalDal.cs
-i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\irentaldal.cs
-++IUserDal.cs
-i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\iuserdal.cs
 ++Concrate
 i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\concrate\
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\concrate\
@@ -62,16 +44,14 @@ i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproje
 ++Analyzers
 i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:analyzers
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:analyzers
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:analyzers
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:analyzers
 i:{96f777f7-096d-4973-991b-6e95afcf620f}:analyzers
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:analyzers
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:analyzers
 ++Frameworks
 i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:frameworks
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:frameworks
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:frameworks
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:frameworks
 i:{96f777f7-096d-4973-991b-6e95afcf620f}:frameworks
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:frameworks
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:frameworks
 ++Packages
 i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:packages
@@ -81,26 +61,39 @@ i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:packages
 ++Projects
 i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:projects
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:projects
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:projects
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:projects
 i:{96f777f7-096d-4973-991b-6e95afcf620f}:projects
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:projects
+++IBrandDal.cs
+i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\ibranddal.cs
+++ICarDal.cs
+i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\icardal.cs
+++ICarimgDal.cs
+i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\icarimgdal.cs
+++IColorDal.cs
+i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\icolordal.cs
+++ICostomerDal.cs
+i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\icostomerdal.cs
+++IMotorcycleDal.cs
+i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\imotorcycledal.cs
+++IRentalDal.cs
+i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\irentaldal.cs
+++IUserDal.cs
+i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\abstract\iuserdal.cs
 ++Microsoft.EntityFrameworkCore.Analyzers
 i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\bariş\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\bariş\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:c:\users\bariş\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\bariş\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\bariş\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\bariş\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\bariş\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.11\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++Microsoft.NETCore.App
 i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\dataaccsess\microsoft.netcore.app
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\microsoft.netcore.app
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:c:\users\enigma\source\repos\recapproject\consoleui\microsoft.netcore.app
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\microsoft.netcore.app
 i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\microsoft.netcore.app
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\microsoft.netcore.app
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\microsoft.netcore.app
 ++Microsoft.EntityFrameworkCore.SqlServer (3.1.11)
-i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:>1219
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1247
+i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:>1022
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1058
 ++Core
 i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\myfinalproject\core\core.csproj
 i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\myfinalproject\core\bin\debug\netcoreapp3.1\core.dll
@@ -108,11 +101,9 @@ i:{00000000-0000-0000-0000-000000000000}:Core
 ++Etities
 i:{b74b96cd-cfdf-4858-9576-23b95ad7767d}:c:\users\enigma\source\repos\recapproject\etities\etities.csproj
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\etities\etities.csproj
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:c:\users\enigma\source\repos\recapproject\etities\etities.csproj
 i:{00000000-0000-0000-0000-000000000000}:Etities
 ++Business
 i:{00000000-0000-0000-0000-000000000000}:Business
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:c:\users\enigma\source\repos\recapproject\business\business.csproj
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\business\bin\debug\netcoreapp3.1\business.dll
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\utilites\business\
 ++BusinessAspects
@@ -137,13 +128,15 @@ i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproje
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\concrate\usermanager.cs
 ++Conctants
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\conctants\
-++FileConctants.cs
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\conctants\fileconctants.cs
-++Messages.cs
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\conctants\messages.cs
 ++DependencyResolvers
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\dependencyresolvers\
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\dependencyresolvers\
+++Autofac
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\dependencyresolvers\autofac\
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\businessaspects\autofac\
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\autofac\
+++AutofacBusinessModule.cs
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\dependencyresolvers\autofac\autofacbusinessmodule.cs
 ++ValidationRules
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\validationrules\
 ++FluentRules
@@ -172,51 +165,72 @@ i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproje
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\abstract\irentalservice.cs
 ++IUserService.cs
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\abstract\iuserservice.cs
-++Autofac
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\businessaspects\autofac\
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\dependencyresolvers\autofac\
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\autofac\
+++FileConctants.cs
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\conctants\fileconctants.cs
+++Messages.cs
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\conctants\messages.cs
 ++Autofac (6.3.0)
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1239
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1255
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1050
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1066
 ++Autofac.Extensions.DependencyInjection (7.2.0)
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1234
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1281
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1248
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1045
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1037
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1059
 ++Autofac.Extras.DynamicProxy (6.0.0)
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1236
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1251
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1047
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1062
 ++FluentValidation (10.3.6)
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1235
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1250
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1046
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1061
 ++Microsoft.AspNetCore.Http.Abstractions (2.2.0)
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1238
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1254
-++Microsoft.Extensions.DependencyInjection (6.0.0)
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1237
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1049
+++Microsoft.Extensions.DependencyInjection (5.0.1)
+i:{1e442148-d93a-4869-9c3f-70dcb928472f}:>1048
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1063
 ++SecuredOperation.cs
 i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\businessaspects\autofac\securedoperation.cs
-++AutofacBusinessModule.cs
-i:{1e442148-d93a-4869-9c3f-70dcb928472f}:c:\users\enigma\source\repos\recapproject\business\dependencyresolvers\autofac\autofacbusinessmodule.cs
-++ConsoleUI
-i:{00000000-0000-0000-0000-000000000000}:ConsoleUI
-++Program.cs
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:c:\users\enigma\source\repos\recapproject\consoleui\program.cs
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\program.cs
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{d1ab8e1d-521d-4108-9f7b-852e7a94d939}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++DTOs
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\dtos\
+++CarDetailDto.cs
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\dtos\cardetaildto.cs
+++UserForLoginDto.cs
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\dtos\userforlogindto.cs
+++UserForRegisterDto.cs
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\dtos\userforregisterdto.cs
+++Brand.cs
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\brand.cs
+++Car.cs
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\car.cs
+++Carimg.cs
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\carimg.cs
+++Color.cs
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\color.cs
+++Costomer.cs
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\costomer.cs
+++Motorcycle.cs
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\motorcycle.cs
+++Rental.cs
+i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\rental.cs
 ++WebAPI
 i:{00000000-0000-0000-0000-000000000000}:WebAPI
 ++Connected Services 
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1214
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1017
 ++Properties
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\properties\
 ++Controllers
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\controllers\
+++AuthController.cs
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\controllers\authcontroller.cs
+++BrandController.cs
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\controllers\brandcontroller.cs
+++CarımagesController.cs
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\controllers\carımagescontroller.cs
+++CarsController.cs
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\controllers\carscontroller.cs
+++ColorController.cs
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\controllers\colorcontroller.cs
+++WeatherForecastController.cs
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\controllers\weatherforecastcontroller.cs
 ++www
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\
 ++upload
@@ -233,6 +247,8 @@ i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproje
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images1ba59f6c-9735-4070-afd2-f5ec9f80cabd.jfif
 ++images1c008aff-14c5-45fb-ba01-b318e432c3e0.jpg
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images1c008aff-14c5-45fb-ba01-b318e432c3e0.jpg
+++images1f09121e-9fc9-40a5-984a-8b09011d2887.jpg
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images1f09121e-9fc9-40a5-984a-8b09011d2887.jpg
 ++images1f34e5bd-f024-4462-a2bb-032930768b60.jfif
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images1f34e5bd-f024-4462-a2bb-032930768b60.jfif
 ++images26b651d7-9959-4b6c-be5c-252a928094bb.jpg
@@ -249,6 +265,8 @@ i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproje
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images331ca81d-22eb-4d7a-bb7c-2668b8545ed8.jpg
 ++images3366873f-1c1c-4230-a504-2450bb2cf1dd.jpg
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images3366873f-1c1c-4230-a504-2450bb2cf1dd.jpg
+++images3393eaff-e2f8-41d1-8801-ff9546993ef2.jpg
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images3393eaff-e2f8-41d1-8801-ff9546993ef2.jpg
 ++images341432fd-4499-43b5-abc1-64fa114de589.jfif
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images341432fd-4499-43b5-abc1-64fa114de589.jfif
 ++images3726d827-fc6a-4367-b1b1-96f285e7c97e.jfif
@@ -261,6 +279,8 @@ i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproje
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images3ab85e86-d91b-42a0-976a-dc7b9baaab49.jpg
 ++images3bc1657b-90b3-4eb4-a628-fcf3f4f55d56.jpg
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images3bc1657b-90b3-4eb4-a628-fcf3f4f55d56.jpg
+++images3bf9a2bf-594d-402c-955e-f5164221fce3.jpg
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images3bf9a2bf-594d-402c-955e-f5164221fce3.jpg
 ++images3dc8e36b-d0bc-474d-9e71-d968965ebf70.jpg
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images3dc8e36b-d0bc-474d-9e71-d968965ebf70.jpg
 ++images42a11660-54b4-42aa-a4cb-9ae4683bdaf9.jpg
@@ -273,6 +293,8 @@ i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproje
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images4a224526-1bb6-4872-b16f-86295c3ad246.jpg
 ++images4a41f39c-5da9-46b1-83af-79912eb477ce.jfif
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images4a41f39c-5da9-46b1-83af-79912eb477ce.jfif
+++images4f92fdb9-08d1-4a87-9b35-a85086c15491.jpg
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images4f92fdb9-08d1-4a87-9b35-a85086c15491.jpg
 ++images51367d93-51fd-4e73-9520-0db39121f769.jfif
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images51367d93-51fd-4e73-9520-0db39121f769.jfif
 ++images51c80d28-8d04-4f89-96f1-e3c12d6fa714.jfif
@@ -285,6 +307,8 @@ i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproje
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images5bea2603-e949-4648-969b-57713adf4713.jpg
 ++images6158b1ba-8f30-445a-9a28-196d317d632b.jpg
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images6158b1ba-8f30-445a-9a28-196d317d632b.jpg
+++images621c02ad-a03f-4547-be2c-e07ce4c7eb07.jpg
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images621c02ad-a03f-4547-be2c-e07ce4c7eb07.jpg
 ++images658aff99-a345-4b80-819b-96926d229c7f.jpg
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images658aff99-a345-4b80-819b-96926d229c7f.jpg
 ++images6e619915-0266-4680-be6e-0ad125c2c29a.jpg
@@ -297,6 +321,8 @@ i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproje
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images7ed17575-cfdb-4b3b-9539-108538f9c0a6.jpg
 ++images7f133e21-9040-4620-b9cf-a0df52691399.jpg
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images7f133e21-9040-4620-b9cf-a0df52691399.jpg
+++images848f1b2d-4873-4d04-b3b9-36323cff2996.jpg
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images848f1b2d-4873-4d04-b3b9-36323cff2996.jpg
 ++images89d20908-3cab-40a6-a2ee-d76e63933166.jpg
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\images89d20908-3cab-40a6-a2ee-d76e63933166.jpg
 ++images8c40412e-3839-4a24-bead-eaf9bd52980c.jfif
@@ -321,6 +347,8 @@ i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproje
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\imagesb6a6e6c3-3538-4f9d-95ae-aa7a37ccf25a.jfif
 ++imagesb9b3163f-2811-43ee-bf98-d4e81239d7fe.jfif
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\imagesb9b3163f-2811-43ee-bf98-d4e81239d7fe.jfif
+++imagesbc7ff66c-9f52-41fc-b008-ccfbc59dbbbe.jpg
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\imagesbc7ff66c-9f52-41fc-b008-ccfbc59dbbbe.jpg
 ++imagesc298261e-07b5-451e-ac78-7e82c77108bd.jfif
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\imagesc298261e-07b5-451e-ac78-7e82c77108bd.jfif
 ++imagesc9401b5e-2f6c-4d64-a358-75a696e1dc80.jpg
@@ -333,6 +361,8 @@ i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproje
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\imagesd496d161-8033-479e-9450-a51e27dadaa1.jfif
 ++imagesda082f64-d9f1-492f-a739-668da5339c92.jpg
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\imagesda082f64-d9f1-492f-a739-668da5339c92.jpg
+++imagesda9e92e7-02a7-4e6d-929a-39fbf0df6bda.jpg
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\imagesda9e92e7-02a7-4e6d-929a-39fbf0df6bda.jpg
 ++imagesdb0c244c-8eb5-47d3-878d-80636ecc53be.jpg
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\imagesdb0c244c-8eb5-47d3-878d-80636ecc53be.jpg
 ++imagese83b2047-73a1-4e08-8291-46a7a4f13d0a.jpg
@@ -359,57 +389,34 @@ i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproje
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\www\upload\imagesfed1a9eb-0e0e-4328-9277-ab89763d3e5e.jpg
 ++appsettings.json
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\appsettings.json
+++Program.cs
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\program.cs
 ++Startup.cs
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\startup.cs
 ++WeatherForecast.cs
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\weatherforecast.cs
 ++No service dependencies discovered
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1018
 ++launchSettings.json
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\properties\launchsettings.json
-++AuthController.cs
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\controllers\authcontroller.cs
-++CarımagesController.cs
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\controllers\carımagescontroller.cs
-++CarsController.cs
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\controllers\carscontroller.cs
-++WeatherForecastController.cs
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\controllers\weatherforecastcontroller.cs
 ++appsettings.Development.json
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\appsettings.development.json
 ++Microsoft.AspNetCore.Analyzers
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
 ++Microsoft.AspNetCore.Components.Analyzers
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 ++Microsoft.AspNetCore.Mvc.Analyzers
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.AspNetCore.App
 i:{837ed28d-fb1f-41f5-921f-d41930608e98}:c:\users\enigma\source\repos\recapproject\webapi\microsoft.aspnetcore.app
 ++Microsoft.AspNetCore.Authentication.JwtBearer (3.1.12)
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1283
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1039
 ++Swashbuckle.AspNetCore (5.6.3)
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1282
-++DTOs
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\dtos\
-++Brand.cs
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\brand.cs
-++Car.cs
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\car.cs
-++Carimg.cs
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\carimg.cs
-++Color.cs
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\color.cs
-++Costomer.cs
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\costomer.cs
-++Motorcycle.cs
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\motorcycle.cs
-++Rental.cs
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\rental.cs
-++CarDetailDto.cs
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\dtos\cardetaildto.cs
-++UserForLoginDto.cs
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\dtos\userforlogindto.cs
-++UserForRegisterDto.cs
-i:{96f777f7-096d-4973-991b-6e95afcf620f}:c:\users\enigma\source\repos\recapproject\etities\concrate\dtos\userforregisterdto.cs
+i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1038
 ++Aspects
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\
 ++CrossCuttingConcerns
@@ -422,11 +429,11 @@ i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalpro
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\extantions\
 ++Utilites
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\utilites\
+++Caching
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\crosscuttingconcerns\caching\
 ++Validation
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\crosscuttingconcerns\validation\
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\autofac\validation\
-++EfEntityRepositoryBase.cs
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\dataaccess\entityframework\efentityrepositorybase.cs
 ++IEntityRepository.cs
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\dataaccess\ientityrepository.cs
 ++CoreModule.cs
@@ -452,15 +459,27 @@ i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalpro
 ++Security
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\utilites\security\
 ++Microsoft.AspNetCore.Http (2.2.2)
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1252
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1064
 ++Microsoft.AspNetCore.Http.Features (5.0.13)
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1246
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1057
 ++Microsoft.Extensions.Configuration (6.0.0)
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1253
-++System.IdentityModel.Tokens.Jwt (6.15.1)
-i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1249
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1065
+++System.IdentityModel.Tokens.Jwt (6.8.0)
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:>1060
+++Chasing
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\autofac\chasing\
+++Performance
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\autofac\performance\
+++Transaction
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\autofac\transaction\
+++Microsoft
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\crosscuttingconcerns\caching\microsoft\
+++ICacheManager.cs
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\crosscuttingconcerns\caching\icachemanager.cs
 ++ValidationTool.cs
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\crosscuttingconcerns\validation\validationtool.cs
+++EfEntityRepositoryBase.cs
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\dataaccess\entityframework\efentityrepositorybase.cs
 ++OperationClaim.cs
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\entities\concrate\operationclaim.cs
 ++User.cs
@@ -505,8 +524,18 @@ i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalpro
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\utilites\security\hasing\
 ++JWT
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\utilites\security\jwt\
+++CacheAspect.cs
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\autofac\chasing\cacheaspect.cs
+++CacheRemoveAspect.cs
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\autofac\chasing\cacheremoveaspect.cs
+++PerformanceAspect.cs
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\autofac\performance\performanceaspect.cs
+++TransactionScopeAspect.cs
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\autofac\transaction\transactionscopeaspect.cs
 ++ValidationAspect.cs
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\aspects\autofac\validation\validationaspect.cs
+++MemoryCasheManager.cs
+i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\crosscuttingconcerns\caching\microsoft\memorycashemanager.cs
 ++FileHelperManager.cs
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\utilites\helper\filehelper\filehelpermanager.cs
 ++IFileHelper.cs
@@ -527,7 +556,3 @@ i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalpro
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\utilites\security\jwt\jwthelper.cs
 ++TokenOptions.cs
 i:{0c1833e3-6f97-488e-ac3c-c8d160da9b28}:c:\users\enigma\source\repos\myfinalproject\core\utilites\security\jwt\tokenoptions.cs
-++Microsoft identity platform
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1613
-++Microsoft identity platform dependency is detected
-i:{837ed28d-fb1f-41f5-921f-d41930608e98}:>1614

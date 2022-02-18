@@ -17,8 +17,9 @@ namespace Etities.Concrate
         public int? CarPrice { get; set; }
         public int BrandId { get; set; }
         public string Location { get; set; }
-       
-         
+        
+
+
     }
        
         
