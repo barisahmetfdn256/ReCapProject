@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etities", "Etities\Etities.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\MyFinalProject\Core\Core.csproj", "{0C1833E3-6F97-488E-AC3C-C8D160DA9B28}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{837ED28D-FB1F-41F5-921F-D41930608E98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "..\MyFinalProject\WebAPI\WebAPI.csproj", "{1AB89D60-D780-4D8B-A417-8BDEF450CDBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{0C1833E3-6F97-488E-AC3C-C8D160DA9B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C1833E3-6F97-488E-AC3C-C8D160DA9B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C1833E3-6F97-488E-AC3C-C8D160DA9B28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{837ED28D-FB1F-41F5-921F-D41930608E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{837ED28D-FB1F-41F5-921F-D41930608E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{837ED28D-FB1F-41F5-921F-D41930608E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{837ED28D-FB1F-41F5-921F-D41930608E98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB89D60-D780-4D8B-A417-8BDEF450CDBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB89D60-D780-4D8B-A417-8BDEF450CDBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB89D60-D780-4D8B-A417-8BDEF450CDBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB89D60-D780-4D8B-A417-8BDEF450CDBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

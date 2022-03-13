@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ENIGMA\\source\\repos\\MyFinalProject\\Core\\Core.csproj": {}
+    "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ENIGMA\\source\\repos\\MyFinalProject\\Core\\Core.csproj": {
+    "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ENIGMA\\source\\repos\\MyFinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\ENIGMA\\source\\repos\\MyFinalProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\BARIŞ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ENIGMA\\source\\repos\\MyFinalProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\BARIŞ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,6 +80,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.15.1, )"
@@ -110,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

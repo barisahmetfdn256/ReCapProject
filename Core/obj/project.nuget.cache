@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D1/+d5Jnz0ji6LZovvpr+1xQ57v4LsM+hFy4vAKB64EL3Zz4xBtOQNWkDYZF3XyWA7SVcE3cF2DW2apWYgSpEQ==",
+  "dgSpecHash": "sob+NHcbh/GKAfOqSzeuVtr8sFFxElErIbFWoT5njO5jmuAjDP04+Di+lT6MtdQNQcOTamD8x3gmm62tolASUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ENIGMA\\source\\repos\\MyFinalProject\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BARIŞ\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\BARIŞ\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
@@ -27,8 +27,8 @@
     "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.11\\microsoft.extensions.configuration.binder.3.1.11.nupkg.sha512",
-    "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.11\\microsoft.extensions.dependencyinjection.3.1.11.nupkg.sha512",
-    "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.11\\microsoft.extensions.dependencyinjection.abstractions.3.1.11.nupkg.sha512",
+    "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.extensions.logging\\3.1.11\\microsoft.extensions.logging.3.1.11.nupkg.sha512",
     "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.11\\microsoft.extensions.logging.abstractions.3.1.11.nupkg.sha512",
     "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",

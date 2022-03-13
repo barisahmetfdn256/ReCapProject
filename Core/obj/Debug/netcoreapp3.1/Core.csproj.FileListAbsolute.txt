@@ -8,3 +8,13 @@ C:\Users\ENIGMA\source\repos\MyFinalProject\Core\bin\Debug\netcoreapp3.1\Core.pd
 C:\Users\ENIGMA\source\repos\MyFinalProject\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\ENIGMA\source\repos\MyFinalProject\Core\obj\Debug\netcoreapp3.1\Core.pdb
 C:\Users\ENIGMA\source\repos\MyFinalProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\ENIGMA\source\repos\ReCapProject\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\ENIGMA\source\repos\ReCapProject\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\ENIGMA\source\repos\ReCapProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\ENIGMA\source\repos\ReCapProject\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ENIGMA\source\repos\ReCapProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\ENIGMA\source\repos\ReCapProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\ENIGMA\source\repos\ReCapProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\ENIGMA\source\repos\ReCapProject\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\ENIGMA\source\repos\ReCapProject\Core\obj\Debug\netcoreapp3.1\Core.pdb

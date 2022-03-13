@@ -25,10 +25,10 @@ namespace Business.Concrate
             _cardal = cardal;
         }
 
-        //[SecuredOperation("admin")]
-        //[ValidationAspect(typeof(CarValidator))]
-        //[CacheRemoveAspect("ICarService.Get")]
-        //[PerformanceAspect(5)]
+        [SecuredOperation("admin")]
+        [ValidationAspect(typeof(CarValidator))]
+        [CacheRemoveAspect("ICarService.Get")]
+        [PerformanceAspect(5)]
         public IResult Add(Car car)
         {
             ValidationTool.Validate(new CarValidator(), car);

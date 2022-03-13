@@ -10,9 +10,9 @@ namespace Business.ValidationRules.FluentRules
     {
         public CarValidator()
         {
-            RuleFor(c => c.DailyPrice).GreaterThan(500);
-            RuleFor(c => c.DailyPrice).LessThan(10000);
+            RuleFor(c => c.DailyPrice).LessThan(7000);
             RuleFor(c=> c.DailyPrice).NotEmpty();
+            RuleFor(c => c.ModelYear).GreaterThan(1999);
             
 
 

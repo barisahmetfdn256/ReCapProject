@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zTl0sL5nZapiSb1pmSR+S2nDaZaxDvDL7JSp0uD5FUsKN12Roou/0rmGRMYXDUSH9jy8p4zOQU9BcFn7XVvPiw==",
+  "dgSpecHash": "L0baA60SYTZzGdSJdEwr/GSixTwaNFa/7PElzhhU25k8bg8usi7gMNu5Sgox3GPv2k6HrujqpwEmfc1N7WKcVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ENIGMA\\source\\repos\\ReCapProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
@@ -147,10 +147,7 @@
     "C:\\Users\\BARIŞ\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\BARIŞ\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\BARIŞ\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\BARIŞ\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\BARIŞ\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\BARIŞ\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
